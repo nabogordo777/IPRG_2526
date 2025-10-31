@@ -1,0 +1,87 @@
+1.1
+
+1.Entrada de dades: Utilitzem input() per demanar a l'usuari dos números i dos textos. Els números es converteixen a tipus float per permetre decimals.
+
+2.Operacions aritmètiques: Realitzem les operacions bàsiques: suma, resta, multiplicació, divisió, divisió entera i mòdul, i mostrem els resultats.
+
+3.Concatenació de textos: Unim els dos textos introduïts per l'usuari i mostrem el resultat.
+
+1.2
+1.Entrada de dades: Demanem dos números a l'usuari.
+
+2.Comparació: Utilitzem condicions if, elif i else per comparar els números i mostrar el missatge corresponent.
+
+2.1
+1.Crear llista: Inicialitzem una llista amb cinc noms d'estudiants.
+
+2.Afegir element: Utilitzem append() per afegir un nou estudiant al final de la llista.
+
+3.Eliminar element: Utilitzem del per eliminar el segon estudiant de la llista (recorda que l'índex comença en 0).
+
+3.1
+1 Definir funció: Creem una funció anomenada saludar que rep un paràmetre nom i imprimeix un missatge de salutació.
+
+2 Cridar funció: Cridem la funció amb diferents noms per veure el resultat.
+
+3.2
+1.Importar mòdul: Importem el mòdul math per utilitzar la constant pi.
+
+2.Definir funció: Creem una funció que rep el radi i retorna l'àrea del cercle utilitzant la fórmula π * radi².
+
+3.Entrada de dades: Demanem al usuari el radi i mostrem el resultat.
+
+3.3
+Definir funció: Creem una funció sumar que rep dos paràmetres, amb un valor per defecte de 5 per al segon paràmetre.
+
+Cridar funció: Cridem la funció amb un sol valor i amb dos valors per veure els resultats.
+
+4.1
+Operacions aritmètiques: Realitzem diverses operacions entre x i y i mostrem els resultats.
+
+Operadors lògics: Comprovem condicions utilitzant operadors lògics com and i ==.
+
+4.2
+Crear llista: Inicialitzem una llista amb noms de fruits.
+
+Entrada de dades: Demanem a l'usuari que introdueixi un fruit.
+
+Comprovació: Utilitzem l'operador in per verificar si el fruit està a la llista i mostrar el missatge corresponent.
+
+5.1
+1.Entrada de dades: Demanem al usuari el seu pes i alçada.
+
+2.Càlcul IMC: Utilitzem la fórmula IMC = pes / (alçada²) per calcular l'IMC.
+
+3.Determinació de categoria: Utilitzem condicions per determinar la categoria de l'IMC i mostrar el missatge corresponent.
+
+6.1
+
+1.La llista a conté [5, 10, 15].
+
+2.La variable b comença amb el valor 20.
+
+3.El programa comprova, una per una, les condicions:
+
+4.if 5 in a: → com que 5 està dins de a, fa b -= 5 → ara b val 15.
+
+5.if 10 in a: → 10 també està dins de a, fa b -= 10 → ara b val 5.
+
+6.if 15 in a: → 15 també està dins de a, fa b -= 15 → ara b val -10.
+
+Finalment imprimeix b.
+
+6.2
+1 aquest codi té un error de sintaxi en la línia else 15 in a: — això no és vàlid en Python.
+2 L’estructura correcta seria amb elif, no amb else.
+
+6.3
+1 aquesta funció calcula el factorial d’un número de forma recursiva.
+
+7.1
+Error:
+En Python, per comparar, s’utilitza ==, no =.
+El signe = serveix per assignar valors, no per comparar-los.
+
+x val 10 i y val 5.
+
+La condició x == y és falsa, així que s’executa el else.
